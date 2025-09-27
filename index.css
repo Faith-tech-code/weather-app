@@ -1,3 +1,13 @@
+body{
+    background-color: f9f7fe;
+}
 .ggg{
     color: red;
+}
+.app{
+    background: white;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50pxrgbs(65, 50, 100, 0.05);
+    padding: 30px;
 }
