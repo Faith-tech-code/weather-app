@@ -1,8 +1,11 @@
 body{
-    background-color: f9f7fe;
+    background-color: #f9f7fe;
 }
 .ggg{
     color: red;
+}
+a {
+    color: purple;
 }
 .app{
     background: white;
@@ -10,4 +13,69 @@ body{
     margin: 45px auto;
     box-shadow: 0 30px 50pxrgbs(65, 50, 100, 0.05);
     padding: 30px;
+}
+header {
+    border-bottom: 1px colid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+.search-form-input {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.search-form-button {
+    background: purple;
+    padding: 15px 20px;
+    border: none;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: white;
+}
+footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.app-data {
+    display: flex;
+    justify-content: space-between;
+
+}
+.city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+
+}
+.details {
+    font-size: 16px;
+    color: rgba(30, 33, 66, 8.4);
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.details strong{
+    color: #f65282;
+}
+.temprature {
+    display: flex;
+}
+.value {
+    font-size: 88px;
+    font-weight: bold;
+}
+.icon {
+    font-size: 44px;
+    margin-top: 22px;
+}
+.units {
+    margin-top: 16px;
+    font-size: 28px;
 }
