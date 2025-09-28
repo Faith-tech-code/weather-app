@@ -10,17 +10,19 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer" />
       <link rel="stylesheet" href="index.css" />
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     </head>
     <title>Weather App</title>
   </head>
   <body>
     <div class="app">
       <header>
-        <form class="search form">
+        <form class="search form" id="search">
           <input
             type="search"
-            placeholder="Ener City..."
+            placeholder="Enter City..."
             required
+            id="search-input"
             class="search-form-input" />
           <input type="submit" value="search" class="search-form-button" />
         </form>
@@ -28,16 +30,18 @@
       <main>
         <div class="app-data">
           <div>
-             <h1 class="city">Paris</h1>
+             <h1 class="city" id="city"></h1>
               <p class="details">
-                 Tuesday 14:49, scattared Clouds
+                 <span id="time"></span>, <span id="description"></span>
                  <br />
-                 Humity: <strong>66%</strong> , wind: <strong>3.32km/h</strong>
+                 Humidity: <strong id="humidity"> % </strong> , wind: <strong id="speed"></strong>
              </p>
           </div>
-          <div class="temprature">
-             <div class="icon">⛅</div>
-             <div class="value">12</div>
+          <div class="temperature">
+             <div id="icon">
+              
+             </div>
+             <div class="value" id="temperature">12</div>
              <div class="units">°C</div>
           </div>
         </div>

@@ -64,18 +64,20 @@ footer {
 .details strong{
     color: #f65282;
 }
-.temprature {
+.temperature {
     display: flex;
 }
 .value {
     font-size: 88px;
+    margin-left: 10px;
+    line-height: 80px;
     font-weight: bold;
 }
 .icon {
-    font-size: 44px;
-    margin-top: 22px;
+    width: 98px;
+    height: 98px;
 }
 .units {
-    margin-top: 16px;
+    margin-top: 6px;
     font-size: 28px;
 }
