@@ -81,3 +81,33 @@ footer {
     margin-top: 6px;
     font-size: 28px;
 }
+.forecast-day {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+
+}
+.forecast-icon {
+    font-size: 38px;
+    text-align: center;
+    
+}
+.forecast-temp{
+    text-align: center;
+    color: #f65282;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.temp-1 {
+    padding: 0 10px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+}
