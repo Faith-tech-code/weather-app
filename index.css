@@ -1,18 +1,32 @@
 body{
-    background-color: #f9f7fe;
+    display: block;
+    background-image: url("abstract-fantasy-landscape-with-color-year-purple-tones.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    min-height: 100vh;
+    border-radius: 20px;
+    ;
+
 }
 .ggg{
     color: red;
 }
 a {
-    color: purple;
+    color: rgb(221, 81, 221);
+    text-decoration: none;
 }
 .app{
-    background: white;
+
     max-width: 600px;
     margin: 45px auto;
     box-shadow: 0 30px 50pxrgbs(65, 50, 100, 0.05);
     padding: 30px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .4);
 }
 header {
     border-bottom: 1px colid #f9f7fe;
@@ -40,12 +54,13 @@ footer {
     text-align: center;
     font-weight: 500;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
+    color: black;
 
 }
 .app-data {
     display: flex;
     justify-content: space-between;
+    color: purple;
 
 }
 .city {
@@ -56,13 +71,13 @@ footer {
 }
 .details {
     font-size: 16px;
-    color: rgba(30, 33, 66, 8.4);
+    color: black;
     line-height: 24px;
     font-weight: 500;
 
 }
 .details strong{
-    color: #f65282;
+    color: rgb(235, 25, 25);
 }
 .temperature {
     display: flex;
@@ -83,21 +98,26 @@ footer {
 }
 .forecast-day {
     text-align: center;
-    color: rgba(39, 33, 66, 0.4);
-    font-size: 16px;
+    color: white;
+    font-size: 20px;
     line-height: 20px;
     margin-bottom: 10px;
+    padding-top: 10px;
 
 
 }
 .forecast-icon {
-    font-size: 38px;
-    text-align: center;
+    width: 88px;
+    height: 88px;
+    display:block;
+    margin: 0 auto;
+
+    
     
 }
 .forecast-temp{
     text-align: center;
-    color: #f65282;
+    color: black;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -110,4 +130,40 @@ footer {
 .forecast {
     display: flex;
     justify-content: space-around;
+}
+#forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.hh{
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+    margin-top: 10px;
+    position: absolute;
+}
+.head{
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.sky{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+}
+.curious{
+    text-align: center;
+    color: rgb(252, 241, 241);
+    padding-top: 0px;
+    font-size: 20px;
+    margin-top: 0px;
 }

@@ -15,7 +15,19 @@
     <title>Weather App</title>
   </head>
   <body>
+    <div></div>
+     <div class="head">
+      
+        <h1> <img class="logo" src="logo2-removebg-preview.png" alt=""> <span class="hh">Weather Now</span>  </h1>
+      </div>
+    <div>
+      <h1 class="sky">How's the Sky Looking?</h1>
+    </div>
+    <div>
+      <p class="curious">Want to know if you’ll need an umbrella today <br> or whether it will be hot enough for light clothes this weekend <br> or maybe you are curious about the weather next week? <br> Just type in your city to check the weather.</p>
+    </div>
     <div class="app">
+     
       <header>
         <form class="search form" id="search">
           <input
@@ -30,22 +42,21 @@
       <main>
         <div class="app-data">
           <div>
-             <h1 class="city" id="city"></h1>
-              <p class="details">
-                 <span id="time"></span>, <span id="description"></span>
-                 <br />
-                 Humidity: <strong id="humidity"> % </strong> , wind: <strong id="speed"></strong>
-             </p>
+            <h1 class="city" id="city"></h1>
+            <p class="details">
+              <span id="time"></span>, <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"> % </strong> , wind:
+              <strong id="speed"></strong>
+            </p>
           </div>
           <div class="temperature">
-             <div id="icon">
-              
-             </div>
-             <div class="value" id="temperature">12</div>
-             <div class="units">°C</div>
+            <div id="icon"></div>
+            <div class="value" id="temperature">12</div>
+            <div class="units">°C</div>
           </div>
         </div>
-        <div class="weather-forecast" id="forcast"></div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
 
       <footer>
